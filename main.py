@@ -15,7 +15,7 @@ def main():
     # cell2.draw()
     # cell.draw_move(cell2, undo=True)
     maze = Maze(0, 0, 10, 10, 50, 50, win=win)
-  
+    maze.solve()
     win.wait_for_close()
 
 if __name__ == "__main__":

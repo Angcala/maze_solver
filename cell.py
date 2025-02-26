@@ -10,6 +10,7 @@ class Cell:
         self.__start = start
         self.__end = end
         self.__window = window
+        self.visited = False
 
     def draw(self):
         if self.has_left_wall:
